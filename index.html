@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPSkill Academy</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./Images/icon2.jpg" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css"/>
+
+  </head>
+  <body>
+    <header id="header">
+      <a href="#" class="logo"><img src="./logo1.png" alt="logo" /></a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">Career Support +</a>
+            <ul>
+              <li><a href="#">Programs</a></li>
+              <li><a href="#">Workshops</a></li>
+              <li><a href="#">Internships</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Courses</a>
+
+            <ul>
+              <li><a href="#">GATE 2024</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Data Structure</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Reviews</a></li>
+
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class=".button"><button>Login</button></a>
+    </header>
+    <div class="container" data-autoplay="true">
+      <div class="slide"><img src="./Images/Banner 1.png" alt="nature" /></div>
+      <div class="slide">
+        <img src="./Images/Banner 2.png" alt="nature" />
+      </div>
+      <div class="slide">
+        <img src="./Images/banner 3.png" alt="nature" />
+      </div>
+
+      <button class="prev" onclick="prev()">
+        <i class="fa-solid fa-circle-arrow-left"></i>
+      </button>
+      <button class="next" onclick="next()">
+        <i class="fa-solid fa-circle-arrow-right"></i>
+      </button>
+    </div>
+    <div class="dots_container" id="indicator"></div>
+    <section id="feature">
+      <h1 id="feature-h1">Awesome Features</h1>
+      <p>
+        Upskilling enhances expertise, broadens knowledge, secures future opportunities, and empowers personal
+        and professional growth
+      </p>
+      <div class="feat">
+        <div class="fea-box">
+            <i class="fa-solid fa-award"></i>
+          <h3>Global Certification</h3>
+          <p>
+            Attain global recognition and validate expertise with our diverse range of certifications, enhancing career prospects and professional credibility worldwide
+          </p>
+        </div>
+        <div class="fea-box">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h3>Personalized Learning Paths</h3>
+            <p>
+              Tailored content and assessments aligning with individual abilities,
+              preferences, and progress, ensuring a customized and effective
+              learning journey
+            </p>
+          </div>
+          <div class="fea-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Career Guidance</h3>
+            <p>
+                Comprehensive career guidance offering assessments, resources, and expert advice to empower informed decisions and foster professional development.
+            </p>
+          </div>
+      </div>
+    </section>
+
+    <section id="course">
+        <h1 id="feature-h1">Our Popular Courses</h1>
+        <p>
+            Explore our popular course for in-depth learning, expert insights, and skill development in high-demand areas
+        </p>
+        <div class="course-box">
+            <div class="courses">
+                <img src="./Images/courses/c1.1.png" alt="course">
+                <div class="details">
+                    <span>Updated 25/10/23</span>
+                    <h3>Javascript Beginner Course</h3>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.5M)</span>
+                    </div>
+                </div>
+                <div class="cost"><h4>₹1999</h4></div>
+            </div>
+
+        <div class="courses">
+            <img src="./Images/courses/c2.jpg" alt="course">
+            <div class="details">
+                <span>Updated 08/10/23</span>
+                <h3>Angular Framework Course</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star i1"></i>
+                    <span>(2.5M)</span>
+                </div>
+            </div>
+            <div class="cost"><h4>₹999</h4></div>
+        </div>
+
+        <div class="courses">
+            <img src="./Images/courses/c3.jpg" alt="course">
+            <div class="details">
+                <span>Updated 13/10/23</span>
+                <h3>REACT JS:Frontend Development</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                    <span>(3.3M)</span>
+                </div>
+            </div>
+            <div class="cost"><h4>₹2599</h4></div>
+        </div>
+
+        <div class="courses">
+            <img src="./Images/courses/c4.png" alt="course">
+            <div class="details">
+                <span>Updated 25/10/23</span>
+                <h3>Complete Python Course</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                    <span>(3.9M)</span>
+                </div>
+            </div>
+            <div class="cost"><h4>₹1499</h4></div>
+        </div>
+        <div class="courses">
+            <img src="./Images/courses/c5.png" alt="course">
+            <div class="details">
+                <span>Updated 05/08/23</span>
+                <h3>Master Data Structure & Algorithm</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   
+                    <span>(3.1M)</span>
+                </div>
+            </div>
+            <div class="cost"><h4>₹3999</h4></div>
+        </div>
+        <div class="courses">
+            <img src="./Images/courses/c6.jpg" alt="course">
+            <div class="details">
+                <span>Updated 14/09/23</span>
+                <h3>FIGMA Crash Course</h3>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                    <span>(890K)</span>
+                </div>
+            </div>
+            <div class="cost"><h4>₹1699</h4></div>
+        </div>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
